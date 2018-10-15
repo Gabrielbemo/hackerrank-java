@@ -83,7 +83,7 @@ There are  lines of input, and each line contains a single integer.
 ```
 ```
 
-# Java Stdin and Stdout II.
+# Java Stdin and Stdout II
 
 In this challenge, you must read an integer, a double, and a String from stdin,
 then print the values according to the instructions in the Output Format section below.
@@ -168,3 +168,79 @@ Given an integer,N , perform the following conditional actions:
 
  Sample Case 1: N = 24
  n > 20 and N is even, so it isn't weird. Thus, we print Not Weird.
+
+ # Java Output Formatting
+
+ Java's System.out.printf function can be used to print formatted output.
+ The purpose of this exercise is to test your understanding of formatting output using printf.
+
+ To get you started, a portion of the solution is provided for you in the editor;
+ you must format and print the input to complete the solution.
+
+ **Input Format**
+ Every line of input will contain a String followed by an integer.
+ Each String will have a maximum of 10 alphabetic characters, and each integer will be in the inclusive range from 0 to 999.
+
+ **Output Format**
+ In each line of output there should be two columns:
+ The first column contains the String and is left justified using exactly 15 characters.
+ The second column contains the integer, expressed in exactly 3 digits; if the original input has less than three digits,
+ you must pad your output's leading digits with zeroes.
+
+ **Sample Input**
+  ```java
+     java 100
+     cpp 65
+     python 50
+  ```
+
+ **Sample Output**
+  ```java
+     ================================
+     java           100
+     cpp            065
+     python         050
+     ================================
+  ```
+
+  **Explanation**
+  Each String is left-justified with trailing whitespace through the first 15 characters. The leading digit of the integer is the 16th character,
+  and each integer that was less than 3 digits now has leading zeroes.
+
+  # Java Loops I
+
+  **Objective**
+  In this challenge, we're going to use loops to help us do some simple math.
+
+  **Task**
+  Given an integer, N, print its first 10 multiples. Each multiple N x i (where 1 <= i <= 10 ) should be printed on a new line in the form: N x i = result.
+
+  **Input Format**
+  A single integer, N.
+
+  **Constraints**
+  2 <= N <= 20
+
+  **Output Format**
+  Print 10 lines of output; each line i (where 1 <= i <= 10 ) contains the result of N x i in the form:
+
+  N x i = result.
+
+  **Sample Input**
+  ```
+  2
+  ```
+
+  **Sample Output**
+  ```
+    2 x 1 = 2
+    2 x 2 = 4
+    2 x 3 = 6
+    2 x 4 = 8
+    2 x 5 = 10
+    2 x 6 = 12
+    2 x 7 = 14
+    2 x 8 = 16
+    2 x 9 = 18
+    2 x 10 = 20
+  ```

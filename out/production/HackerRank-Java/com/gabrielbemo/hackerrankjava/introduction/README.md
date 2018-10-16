@@ -81,7 +81,7 @@ There are  lines of input, and each line contains a single integer.
 100
 125
 ```
-```
+
 
 # Java Stdin and Stdout II
 
@@ -243,4 +243,22 @@ Given an integer,N , perform the following conditional actions:
     2 x 8 = 16
     2 x 9 = 18
     2 x 10 = 20
+  ```
+
+  # Java Int To String
+
+  You are given an integer n, you have to convert it into a string.
+
+  Please complete the partially completed code in the editor. If your code successfully converts n into a string string the code will print "Good job". Otherwise it will print "Wrong answer".
+
+  n can range between -100 to 100 inclusive.
+
+  **Sample Input 0**
+  ```
+    100
+  ```
+
+  **Sample Output 0**
+  ```
+    100
   ```
